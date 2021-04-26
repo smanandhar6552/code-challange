@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	  <title>Customers Dashboard - G4 UI/UX Challenge</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h4>Customers Dashboard</h4>
+        <ul>
+            <li><a href="dashboard.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="profile.html"><i class="fas fa-user"></i>CustomerProfile</a></li>
+            
+        </ul> 
+      
+	</div>	
+    <div class="main_content">
+        <div class="header">Welcome!! Have a nice day.</div> 
+			<div class="row dashboard">
+				<div class="col-sm-3">
+						<div class="card text-white mb-3 load1"> 
+							<div class="card-body">
+    						<p class="card-text">4359</p>
+							<img class="load" src="assets/greenload.jpg">
+							<h6 class="description">Total orders</h6>
+  							</div>
+						</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card text-white mb-3 load2" >
+						<div class="card-body">
+   						<p class="card-text">9255</p>
+						<img class="load" src="assets/blue.jpg">
+						<h6 class="description">Revenue</h6>
+  						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card text-white mb-3 load3">
+ 						<div class="card-body">
+    					<p class="card-text">4325</p>
+						<img class="load" src="assets/greenload.jpg">
+						<h6 class="description">Visitors</h6>
+  						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card text-white mb-3 load4">
+ 						 <div class="card-body">
+    					 <p class="card-text">9489</p>
+						<img class="load" src="assets/blue.jpg">
+						<h6 class="description">Messages</h6>
+  						</div>
+					</div>
+				</div>
+	</div><br>
+	<div class="row">
+		<div class="col-sm-9">
+		<img src="assets/bargraph.jpg">
+		</div>
+		
+		<div class="col-sm-3">
+				<h6 style="text-align: center;">Services</h6>
+				<div class="accordion" id="accordionExample" style="margin-right: 25px;">
+						<div class="card" >
+						  <div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+							  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								Activity 1
+								<i class="fas fa-caret-down"></i>
+							  </button>
+							</h2>
+						  </div>
+					  
+						  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div class="card-body">
+							  Activity 1
+							</div>
+						  </div>
+						</div>
+						<br>
+						<div class="card">
+						  <div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+							  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Activity 2
+								<i class="fas fa-caret-down"></i>
+							  </button>
+							</h2>
+						  </div>
+						  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<div class="card-body">
+									Activity 2
+							</div>
+						  </div>
+						</div>
+						<br>
+						<div class="card">
+						  <div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+							  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Activity 3
+								<i class="fas fa-caret-down"></i>
+							  </button>
+							</h2>
+						  </div>
+						  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							<div class="card-body">
+									Activity 3
+							</div>
+						  </div>
+						</div>
+					  </div>
+		</div>
+	</div>
+	<div>  
+</body>
+</html>
